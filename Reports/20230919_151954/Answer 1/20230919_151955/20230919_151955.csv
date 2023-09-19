@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Answer 1,,,,2023-09-19 15:20:02,2023-09-19 15:20:16,13.282s,PASSED
+,,,,,,,
+Test Cases/Create a new user,,,,2023-09-19 15:20:03,2023-09-19 15:20:06,3.281s,PASSED
+"sample.Common.createNewUser(email, password)",,,,2023-09-19 15:20:03,2023-09-19 15:20:06,2.928s,PASSED
+,,,,,,,
+Test Cases/Find user by ID,,,,2023-09-19 15:20:06,2023-09-19 15:20:09,2.899s,PASSED
+"id = sample.Common.createNewUser(email, password)",,,,2023-09-19 15:20:06,2023-09-19 15:20:08,1.515s,PASSED
+sample.Common.findUserById(id),,,,2023-09-19 15:20:08,2023-09-19 15:20:09,1.167s,PASSED
+,,,,,,,
+Test Cases/Get list users,,,,2023-09-19 15:20:09,2023-09-19 15:20:10,1.274s,PASSED
+sample.Common.getListUsers(page),,,,2023-09-19 15:20:09,2023-09-19 15:20:10,1.071s,PASSED
+,,,,,,,
+Test Cases/Put Update,,,,2023-09-19 15:20:10,2023-09-19 15:20:16,5.633s,PASSED
+"getUserResponse = sendRequest(findTestObject(""Object Repository/GET list users""))",,,,2023-09-19 15:20:10,2023-09-19 15:20:14,4.099s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2023-09-19 15:20:14,2023-09-19 15:20:14,0.000s,PASSED
+result = slurper.parseText(getUserResponse.getResponseBodyContent()),,,,2023-09-19 15:20:14,2023-09-19 15:20:14,0.000s,PASSED
+value = first_name,,,,2023-09-19 15:20:14,2023-09-19 15:20:14,0.000s,PASSED
+"println(""value is"" + value)",,,,2023-09-19 15:20:14,2023-09-19 15:20:14,0.000s,PASSED
+"sendRequestAndVerify(findTestObject(""Object Repository/PUT update"", [""username"":value]))",,,,2023-09-19 15:20:14,2023-09-19 15:20:16,1.362s,PASSED

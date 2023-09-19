@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Answer 1" time="13.282" tests="4" failures="0" errors="0">
+   <testsuite name="Answer 1" tests="4" failures="0" errors="0" time="13.282" skipped="0" timestamp="2023-09-19 15:20:02" hostname="BRI - 10.233.115.244" id="Test Suites/Answer 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\qointest\\Reports\\20230919_151954\\Answer 1\\20230919_151955"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\qointest\\Reports\\20230919_151954\\Answer 1\\20230919_151955\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BRI - 10.233.115.244"/>
+         <property name="hostAddress" value="10.233.115.244"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+      </properties>
+      <testcase name="Test Cases/Create a new user" time="3.281" classname="Test Cases/Create a new user" status="PASSED">
+         <system-out><![CDATA[2023-09-19 15:20:03 - [TEST_CASE][PASSED] - Test Cases/Create a new user: Test Cases/Create a new user
+
+2023-09-19 15:20:03 - [TEST_STEP][PASSED] - sample.Common.createNewUser(email, password): sample.Common.createNewUser is PASSED
+
+2023-09-19 15:20:06 - [MESSAGE][INFO] - HAR: C:\Users\HP\Katalon Studio\qointest\Reports\20230919_151954\Answer 1\20230919_151955\requests\main\0.har
+
+2023-09-19 15:20:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-09-19 15:20:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-09-19 15:20:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-09-19 15:20:06 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-09-19 15:20:06 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-09-19 15:20:06 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-09-19 15:20:06 - [MESSAGE][PASSED] - sample.Common.createNewUser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Find user by ID" time="2.899" classname="Test Cases/Find user by ID" status="PASSED">
+         <system-out><![CDATA[2023-09-19 15:20:06 - [TEST_CASE][PASSED] - Test Cases/Find user by ID: Test Cases/Find user by ID
+
+2023-09-19 15:20:06 - [TEST_STEP][PASSED] - id = sample.Common.createNewUser(email, password): sample.Common.createNewUser is PASSED
+
+2023-09-19 15:20:07 - [MESSAGE][INFO] - HAR: C:\Users\HP\Katalon Studio\qointest\Reports\20230919_151954\Answer 1\20230919_151955\requests\main\1.har
+
+2023-09-19 15:20:08 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-09-19 15:20:08 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-09-19 15:20:08 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-09-19 15:20:08 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-09-19 15:20:08 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-09-19 15:20:08 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-09-19 15:20:08 - [MESSAGE][PASSED] - sample.Common.createNewUser is PASSED
+
+2023-09-19 15:20:08 - [TEST_STEP][PASSED] - sample.Common.findUserById(id): sample.Common.findUserById is PASSED
+
+2023-09-19 15:20:09 - [MESSAGE][INFO] - HAR: C:\Users\HP\Katalon Studio\qointest\Reports\20230919_151954\Answer 1\20230919_151955\requests\main\2.har
+
+2023-09-19 15:20:09 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-09-19 15:20:09 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-09-19 15:20:09 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-09-19 15:20:09 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-09-19 15:20:09 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-09-19 15:20:09 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-09-19 15:20:09 - [MESSAGE][PASSED] - sample.Common.findUserById is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get list users" time="1.274" classname="Test Cases/Get list users" status="PASSED">
+         <system-out><![CDATA[2023-09-19 15:20:09 - [TEST_CASE][PASSED] - Test Cases/Get list users: Test Cases/Get list users
+
+2023-09-19 15:20:09 - [TEST_STEP][PASSED] - sample.Common.getListUsers(page): sample.Common.getListUsers is PASSED
+
+2023-09-19 15:20:10 - [MESSAGE][INFO] - HAR: C:\Users\HP\Katalon Studio\qointest\Reports\20230919_151954\Answer 1\20230919_151955\requests\main\3.har
+
+2023-09-19 15:20:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-09-19 15:20:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-09-19 15:20:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-09-19 15:20:10 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-09-19 15:20:10 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-09-19 15:20:10 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2023-09-19 15:20:10 - [MESSAGE][PASSED] - sample.Common.getListUsers is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Put Update" time="5.633" classname="Test Cases/Put Update" status="PASSED">
+         <system-out><![CDATA[2023-09-19 15:20:10 - [TEST_CASE][PASSED] - Test Cases/Put Update: Test Cases/Put Update
+
+2023-09-19 15:20:10 - [TEST_STEP][PASSED] - getUserResponse = sendRequest(findTestObject("Object Repository/GET list users")): Send request successfully
+
+2023-09-19 15:20:14 - [MESSAGE][INFO] - HAR: C:\Users\HP\Katalon Studio\qointest\Reports\20230919_151954\Answer 1\20230919_151955\requests\main\4.har
+
+2023-09-19 15:20:14 - [MESSAGE][PASSED] - Send request successfully
+
+2023-09-19 15:20:14 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2023-09-19 15:20:14 - [TEST_STEP][PASSED] - result = slurper.parseText(getUserResponse.getResponseBodyContent()): null
+
+2023-09-19 15:20:14 - [TEST_STEP][PASSED] - value = first_name: null
+
+2023-09-19 15:20:14 - [TEST_STEP][PASSED] - println("value is" + value): null
+
+2023-09-19 15:20:14 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Object Repository/PUT update", ["username":value])): Send request and verify the response successfully
+
+2023-09-19 15:20:16 - [MESSAGE][INFO] - HAR: C:\Users\HP\Katalon Studio\qointest\Reports\20230919_151954\Answer 1\20230919_151955\requests\main\5.har
+
+2023-09-19 15:20:16 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2023-09-19 15:20:16 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2023-09-19 15:20:16 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2023-09-19 15:20:16 - [MESSAGE][PASSED] - Verify response successfully
+
+2023-09-19 15:20:16 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2023-09-19 15:20:16 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-19 15:20:02 - [TEST_SUITE][PASSED] - Answer 1: Test Cases/Put Update]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

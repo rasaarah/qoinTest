@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create a new user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c63f7297-a8d3-40c2-bb67-be86a17e1d34</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>69f32e3d-2c0f-40f3-a038-842d49746f28</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3c96148-9aa4-431e-bd3b-a4e1a704e1d5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'eve.holt@reqres.in'</defaultValue>
+      <description></description>
+      <id>69f32e3d-2c0f-40f3-a038-842d49746f28</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'pistol'</defaultValue>
+      <description></description>
+      <id>a3c96148-9aa4-431e-bd3b-a4e1a704e1d5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
